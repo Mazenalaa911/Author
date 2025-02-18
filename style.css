@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.navbar .navbar-brand {
+    font-size: 26px;
+    font-weight: 900;
+    padding: 16px 0;
+    
+    
+}
+
+.navbar .navbar-brand span {
+    color: #17b978;
+}
+
+.navbar .navbar-collapse .nav-link.active{
+    color: #17b978;
+    border-bottom: 2px solid #17b978;
+}
+
+.navbar .navbar-collapse .nav-link{
+    transition: 0.3s;
+}
+
+.navbar .navbar-collapse .nav-link:hover {
+    border-bottom: 2px solid #17b978;
+    color: #17b978;
+ 
+    
+}
+ .home .container .row {
+    padding: 120px 0;
+    height: 100vh;
+
+
+}
+
+
+.container .row .col-lg-4 h1{
+    color: #17b978 ;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.container .row .col-lg-4 h2{
+    color: #051441;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.container .row .col-lg-4 p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #6a7695;
+
+}
+
+.container .row .col-lg-4 .btn{
+    background: #17b978;
+    border: 1px solid #17b978;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+
+.about .container .row .col-lg-6 p{
+    color: #888;
+}
+
+.about .container .row .col-lg-6 h1{
+    color: #051441;
+    font-size: 50px;
+}
+
+.about .container .row .col-lg-6 h2{
+    font-size: 20px;
+    color: #051441;
+}
+.about .container .row .col-lg-6 h3{
+    font-size: 20px;
+    color: #051441;
+}
+.about .container .row .col-lg-6 h4{
+    font-size: 20px;
+    color: #051441;
+}
+
+.state .box{
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f5f4fb;
+    font-family: sans-serif;
+}
+
+.chapter .container .head{
+    color: #051441;
+    display: flex;
+    justify-content: center;
+}
+
+.chapter .container .head h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.chapter .container .row .col-lg-3 ul{
+    position: sticky;
+    top: 200px;
+}
+.chapter .container .row .col-lg-3 li{
+    color: #495057;
+    font-weight: 700;
+}
+
+.chapter .container .row .col-lg-9 .box1{
+    background-color: #f5f4fb;
+    margin-top: 50px;
+}
+
+.chapter .container .row .col-lg-9 .box1 h1{
+    color: #051441;
+}
+
+.chapter .container .row .col-lg-9 .box1 p{
+    color: #888;
+}
+
+.services .container .head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.services .container .head .text span{
+    color: #17b978;
+    font-weight: 700;
+}
+
+.services .container .head .text h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #051441;
+}
+
+.services .container .row .col-lg-4 .box{
+    background-color: #f5f4fb;
+    text-align: center;
+}
+
+.services .container .row .col-lg-4 .box i{
+    font-size: 60px;
+    color: #17b978;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.services .container .row .col-lg-4 .box h3{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #051441;
+}
+
+.services .container .row .col-lg-4 .box p{
+    padding-bottom: 20px;
+    
+}
+
+.reviews .cover{
+    background-image: url(img/gpj-4.webp);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.reviews .cover::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #17b9789e;
+}
+.reviews .container{
+    position: relative;
+    transform: translateY(30%);
+    top: -300px;
+}
+
+.reviews .container .head .text span{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.reviews .container .head .text h2{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.reviews .container .row{
+    margin-top: 80px;
+}
+.reviews .container .box{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px #00000029;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.reviews .container .box i{
+    background-color: #17b978;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 18px;
+}
+.reviews .container .box p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.reviews .container .box{
+    font-size: 17px;
+    padding: 15px;
+}
+
+.reviews .container .img{
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+/* ----------------------------------- */
+.books .container .head span{
+    color: #17b978;
+    font-weight: 700;
+}
+.books .container .head h2{
+    color: #051441;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.books .container .row .col-lg-3{
+    margin: 15px 0;
+}
+
+/* -------------------------------------- */
+
+.author .container .row{
+    background-color: #f5f4fb;
+}
+
+.author .container .row .col-lg-6 .text {
+    padding: 50px 40px;
+}
+
+.author .container .row .col-lg-6 .text span{
+    color: #17b978;
+    font-weight: 700;
+    width: 136px;
+}
+
+.author .container .row .col-lg-6 .text h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.author .container .row .col-lg-6 .text p{
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.author .container .row .col-lg-6 .text li{
+    display: flex;
+}
+.author .container .row .col-lg-6 .text li span{
+    color: #000;
+}
+
+.author .container .row .col-lg-6 .text .btn{
+    background: #17b978;
+    border: 1px solid #17b978;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+/* ----------------------------------------------------- */
+
+.contact .container .text{
+    text-align: center ;
+}
+
+.contact .container .text h2{
+    color: #051441;
+    font-size: 50px;
+    font-weight: 700;
+}
+.contact .container .text p{
+    color: #827ca3;
+    margin-bottom: 50px;
+}
+.contact .container .row .col-lg-3 .box{
+    background-color: #f5f4fb;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.contact .container .row .col-lg-3 .box i{
+    padding: 40px;
+    border-radius: 50%;
+    background-color: #17b978;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact .container .row .col-lg-3 .box h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.contact .container .row .col-lg-3 .box span a{
+    color: #17b978;
+    font-family: sans-serif;    
+}
+.contact .container .row .col-lg-6 iframe{
+    width: 100%;
+    height: 520px;
+}
+
+.contact .container .row .col-lg-6{
+    background-color: #f5f4fb;
+}
+
+.contact .form input{
+    padding: 25px 20px;
+    margin-bottom: 20px;
+}
+
+.contact .form textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 15px;
+
+}
+.contact .form button {
+    background: #17b978;
+    border: 1px solid #17b978;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 50px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+/* ----------------------------------------- */
+
+.footer{
+    background-color: #000;
+}
+
+.footer .row .col-lg-3 span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.footer p{
+    color: #aaaaaa;
+    margin-top: 30px;
+}
+
+.footer .row .col-lg-3 .icons i{
+    cursor: pointer;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.322);
+}
+
+.footer .row .col-lg-3 li{
+    list-style: none;
+}
+
+.footer .row .col-lg-3 a{
+    color: #aaaaaa;
+
+    padding: 10px 0;
+}
+
+.footer .row .col-lg-3 a:hover{
+    color: blue;
+}
+
+.footer .row .col-lg-3 .info li{
+    margin-top: 20px;
+}
+
+.footer .row .col-lg-3 .text li{
+    margin-top: 20px;
+    color: #aaaaaa;
+}
+
+.footer .row .col-lg-3 .infoo li{
+    margin-top: 20px;
+}
+.footer .row .col-lg-3 .infoo i{
+    margin-right: 10px;
+    color: #aaaaaa;
+
+}
+/* Enndddddddddddddddddddddddddddddddddddd */
